@@ -1,0 +1,18 @@
+dependencies: \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Modules/RCTLayoutAnimationGroup.m \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Modules/RCTLayoutAnimationGroup.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Modules/RCTLayoutAnimation.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/mojo/github/Code-Challenge/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/mojo/github/Code-Challenge/ios/build/ReactNativeStarter/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/mojo/github/Code-Challenge/ios/build/ReactNativeStarter/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/mojo/github/Code-Challenge/ios/build/ReactNativeStarter/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/mojo/github/Code-Challenge/ios/build/ReactNativeStarter/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h

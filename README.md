@@ -10,13 +10,13 @@ TAPP Code Challenge for Software Engineer Candidates
 
 ## Candidate Information (Fill out with your info)
 
-Name: _Your Name_
+Name: Joseph Wu
 
-Email: _Your email_
+Email: josephwu0328@gmail.com
 
-Resume: _link to your resume_
+Resume: https://gnldr.website/tracker/click?redirect=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1V1Ua6OClkk-InVl0Qdc27hQuuvuQ4kQt&dID=1556062787831&linkName=Resume
 
-Additional: _Such as Github or LinkedIn, etc_
+Additional: LinkedIn - https://www.linkedin.com/in/chainblockers/
 
 ## Intro
 

@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6971C648DDB28667F4C22B65A43ACD65 /* GooglePlacePicker */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B4C19445312324B2FC829685DE007C84 /* Build configuration list for PBXAggregateTarget "GooglePlacePicker" */;
+			buildPhases = (
+			);
+			dependencies = (
+				C33B0DAEEBDCDD75F9AF79C9332DEC43 /* PBXTargetDependency */,
+				B5BD3C53A125FD91ACDBEBEDB9843C99 /* PBXTargetDependency */,
+			);
+			name = GooglePlacePicker;
+		};
+		BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+		FDCCEC87018B71AF93462A4997EAB6BD /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 480B55FE3ACCAC83A30949D59053CFBD /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				BB314D9FD28F9EE0C76AA2ABD22FC78D /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17291B040D9A5BF4CE92EB23D1A94798 /* Pods-ReactNativeStarter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247A1079F906DE81128182EEEBCC40C /* Pods-ReactNativeStarter-dummy.m */; };
+		33D7EAC1D7FB9291D8CFDB9A34ED38CA /* Pods-ReactNativeStarterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EECFD82A7F6070A5654A0362FD0B4 /* Pods-ReactNativeStarterTests-dummy.m */; };
+		D918EF18505F2B473BD44A1731649D7F /* Pods-ReactNativeStarter-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C538F17ABD71F48E52249337067626C5 /* Pods-ReactNativeStarter-tvOSTests-dummy.m */; };
+		DAA6079D8D1BBDC232C248A8CC686209 /* Pods-ReactNativeStarter-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8267F7DDAC0EFC9A0DE88B7D680F7610 /* Pods-ReactNativeStarter-tvOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35E69D0E4CDC23656657C72CBC0D50F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCCEC87018B71AF93462A4997EAB6BD;
+			remoteInfo = GooglePlaces;
+		};
+		44915583C8AAB453CB2B8C11E6512027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
+		};
+		5FFB84AEE69E14648ECB467E044F8FF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6971C648DDB28667F4C22B65A43ACD65;
+			remoteInfo = GooglePlacePicker;
+		};
+		6A810B2782A5BFC1C44E25CD9E0251C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843AA4F48FE97675D6852EC171B7AAD2;
+			remoteInfo = "Pods-ReactNativeStarter";
+		};
+		75424630A62F7361375B6EEF03E74D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A97408EBA3FFC5BBCA87AA6DF67950;
+			remoteInfo = "Pods-ReactNativeStarter-tvOS";
+		};
+		B01B24CF75D366B04CD0C608991574AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCCEC87018B71AF93462A4997EAB6BD;
+			remoteInfo = GooglePlaces;
+		};
+		B789AD79372E11A1DF4FA507D4EFD0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
+		};
+		DB32E74C91B4C711DC0B0CE5A18D8A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01849A275022D82459497A981CD0E800 /* Pods-ReactNativeStarterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeStarterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A1038B49B42E30CE17FFCA91D0E8645 /* Pods-ReactNativeStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E34E16BA6F8F59CF7F3EBFE2CC58891 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1247A1079F906DE81128182EEEBCC40C /* Pods-ReactNativeStarter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeStarter-dummy.m"; sourceTree = "<group>"; };
+		182B27845C91962702CA177736A7CC76 /* Pods-ReactNativeStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D4D13A70222D6D1A6901369FD15F11E /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
+		3138A009C97C154DBF632F6B012A58AD /* Pods-ReactNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
+		3F4908AAF4F290B5C287329E916F03BB /* Pods-ReactNativeStarterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeStarterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		456E0F9615DED332FB8D8373D658A265 /* libPods-ReactNativeStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReactNativeStarter.a"; path = "libPods-ReactNativeStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47596D9F942EFAC1D0353BAA4F356F2E /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		519C650D75F7531D0CAB7C1DB97200D0 /* Pods-ReactNativeStarter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactNativeStarter-resources.sh"; sourceTree = "<group>"; };
+		53ED20C856292823D18E068F7619868A /* GooglePlacePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlacePicker.xcconfig; sourceTree = "<group>"; };
+		5420D5F1706BB5221B197A2CE39FD279 /* Pods-ReactNativeStarter-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeStarter-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E72F0EF93DBA25C82CDD365526670D4 /* Pods-ReactNativeStarter-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeStarter-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60C7F8752BAB3FF6CBBFF1D00ACA7C9A /* libPods-ReactNativeStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReactNativeStarter-tvOSTests.a"; path = "libPods-ReactNativeStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63123E8AA4BA708148716FCA2F5CD0C6 /* libPods-ReactNativeStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReactNativeStarter-tvOS.a"; path = "libPods-ReactNativeStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1FA5FE5A0AEAF3D31E761443E85D54 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		7D2581F55F6E3408D31C7E8B357E4E54 /* Pods-ReactNativeStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1EECFD82A7F6070A5654A0362FD0B4 /* Pods-ReactNativeStarterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeStarterTests-dummy.m"; sourceTree = "<group>"; };
+		8267F7DDAC0EFC9A0DE88B7D680F7610 /* Pods-ReactNativeStarter-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeStarter-tvOS-dummy.m"; sourceTree = "<group>"; };
+		91A6BCDC3A9ACCC4761C5AFD3C342A06 /* Pods-ReactNativeStarter-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeStarter-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94F37384DA1C643BB2C0981EC6C2243B /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12B757CF6BC01AAE989278C0FE3D8F9 /* Pods-ReactNativeStarter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeStarter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A53868ABA0D822AD6DC95C1E93AF5079 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		B1CE38DC7564F902D28752B055859A72 /* Pods-ReactNativeStarter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeStarter-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8CB7F4C8E0A31C6624B31EA9D566FE2 /* Pods-ReactNativeStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6320F413B48CEE942E32DFA63AA161 /* Pods-ReactNativeStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7DD81DCA91AB564D91F157D5AA29F9 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		BFC6CA4B976E5A6A617243E39071BF2B /* libPods-ReactNativeStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReactNativeStarterTests.a"; path = "libPods-ReactNativeStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C538F17ABD71F48E52249337067626C5 /* Pods-ReactNativeStarter-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeStarter-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		C7410A8C7D309A62D568B0BF7D03619E /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		CCD25A4F20048D58901FE2DA6403FD87 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		D4AC2F5618E5F3A7F67C36BBDD4E16C1 /* Pods-ReactNativeStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D5CCDD85933C1A05C826AFD22920462E /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E87D4B7F41EDB74836FE32959403F1B7 /* Pods-ReactNativeStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F1D42969E515508C58EC76FC68336A48 /* Pods-ReactNativeStarter-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeStarter-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DD77F14B6C56256A6FA7AF2ED3A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324F4A5E2CFE44B35629F9B25CA197DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7724D365C4EB899CF1B85D2A5E309C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E952D01C7E8F8B60838BADE5BEBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EA8CF92D59DE9D8210CB4982563DBD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				949EA34BD89E62FA6F3DE6433F4D3F51 /* Pods-ReactNativeStarter */,
+				CFB2754B505A2DA0A4BF1F23EF28A54C /* Pods-ReactNativeStarter-tvOS */,
+				1613E03A7CE57CD1B9A9F81331C630CC /* Pods-ReactNativeStarter-tvOSTests */,
+				AC501986F4DFF834C3FFA14DBC95A9E9 /* Pods-ReactNativeStarterTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11CC82E397C4438FB99C3DE0394A58BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456E0F9615DED332FB8D8373D658A265 /* libPods-ReactNativeStarter.a */,
+				63123E8AA4BA708148716FCA2F5CD0C6 /* libPods-ReactNativeStarter-tvOS.a */,
+				60C7F8752BAB3FF6CBBFF1D00ACA7C9A /* libPods-ReactNativeStarter-tvOSTests.a */,
+				BFC6CA4B976E5A6A617243E39071BF2B /* libPods-ReactNativeStarterTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1613E03A7CE57CD1B9A9F81331C630CC /* Pods-ReactNativeStarter-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5420D5F1706BB5221B197A2CE39FD279 /* Pods-ReactNativeStarter-tvOSTests-acknowledgements.markdown */,
+				91A6BCDC3A9ACCC4761C5AFD3C342A06 /* Pods-ReactNativeStarter-tvOSTests-acknowledgements.plist */,
+				C538F17ABD71F48E52249337067626C5 /* Pods-ReactNativeStarter-tvOSTests-dummy.m */,
+				B8CB7F4C8E0A31C6624B31EA9D566FE2 /* Pods-ReactNativeStarter-tvOSTests.debug.xcconfig */,
+				0A1038B49B42E30CE17FFCA91D0E8645 /* Pods-ReactNativeStarter-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeStarter-tvOSTests";
+			path = "Target Support Files/Pods-ReactNativeStarter-tvOSTests";
+			sourceTree = "<group>";
+		};
+		1A85F5159206111461796B036049B482 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7C92029810B1DAE4183FD6B54242C82A /* Frameworks */,
+				52943D08C15C7A6A9B2A060381391629 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		247FD3A18FE38935BB92B3E180C7D596 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				E12708CB198CEC0C91A0F027BF8685AA /* Frameworks */,
+				B9BD2979414BD38C8C1F78FB30D7CF5E /* Resources */,
+				EB6F085D3C401EF0A360F191C97EAB9E /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		3B8EE2D3D7AF12FF89D3D6DD1B5EFD3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E1FA5FE5A0AEAF3D31E761443E85D54 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41C9524FD973899D2101A3CD8D6E7C1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53868ABA0D822AD6DC95C1E93AF5079 /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52943D08C15C7A6A9B2A060381391629 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5CCDD85933C1A05C826AFD22920462E /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		56FD8A0BBE5F89EB63B5E9E01D89F6AF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89196EB8DD16B693F04ECCF16146E720 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		60D0D89FD15CABF286DAFDE5999B939B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53ED20C856292823D18E068F7619868A /* GooglePlacePicker.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlacePicker";
+			sourceTree = "<group>";
+		};
+		72D89E1B5905F68DB9C94A66FA6724F8 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				56FD8A0BBE5F89EB63B5E9E01D89F6AF /* Base */,
+				1A85F5159206111461796B036049B482 /* Maps */,
+				8A599711BCB7418C988D3FEB3067EB50 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		7C92029810B1DAE4183FD6B54242C82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD25A4F20048D58901FE2DA6403FD87 /* GoogleMaps.framework */,
+				0E34E16BA6F8F59CF7F3EBFE2CC58891 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8842A05F0B7F0CF73EDD4E2F86C36854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D89E1B5905F68DB9C94A66FA6724F8 /* GoogleMaps */,
+				BAD2E2D340A901735D8175782BEE6401 /* GooglePlacePicker */,
+				247FD3A18FE38935BB92B3E180C7D596 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89196EB8DD16B693F04ECCF16146E720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DD81DCA91AB564D91F157D5AA29F9 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A599711BCB7418C988D3FEB3067EB50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F37384DA1C643BB2C0981EC6C2243B /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		949EA34BD89E62FA6F3DE6433F4D3F51 /* Pods-ReactNativeStarter */ = {
+			isa = PBXGroup;
+			children = (
+				A12B757CF6BC01AAE989278C0FE3D8F9 /* Pods-ReactNativeStarter-acknowledgements.markdown */,
+				B1CE38DC7564F902D28752B055859A72 /* Pods-ReactNativeStarter-acknowledgements.plist */,
+				1247A1079F906DE81128182EEEBCC40C /* Pods-ReactNativeStarter-dummy.m */,
+				519C650D75F7531D0CAB7C1DB97200D0 /* Pods-ReactNativeStarter-resources.sh */,
+				BB6320F413B48CEE942E32DFA63AA161 /* Pods-ReactNativeStarter.debug.xcconfig */,
+				3138A009C97C154DBF632F6B012A58AD /* Pods-ReactNativeStarter.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeStarter";
+			path = "Target Support Files/Pods-ReactNativeStarter";
+			sourceTree = "<group>";
+		};
+		AC501986F4DFF834C3FFA14DBC95A9E9 /* Pods-ReactNativeStarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				01849A275022D82459497A981CD0E800 /* Pods-ReactNativeStarterTests-acknowledgements.markdown */,
+				3F4908AAF4F290B5C287329E916F03BB /* Pods-ReactNativeStarterTests-acknowledgements.plist */,
+				7F1EECFD82A7F6070A5654A0362FD0B4 /* Pods-ReactNativeStarterTests-dummy.m */,
+				182B27845C91962702CA177736A7CC76 /* Pods-ReactNativeStarterTests.debug.xcconfig */,
+				7D2581F55F6E3408D31C7E8B357E4E54 /* Pods-ReactNativeStarterTests.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeStarterTests";
+			path = "Target Support Files/Pods-ReactNativeStarterTests";
+			sourceTree = "<group>";
+		};
+		B9BD2979414BD38C8C1F78FB30D7CF5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7410A8C7D309A62D568B0BF7D03619E /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BAD2E2D340A901735D8175782BEE6401 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				41C9524FD973899D2101A3CD8D6E7C1C /* Frameworks */,
+				3B8EE2D3D7AF12FF89D3D6DD1B5EFD3B /* Resources */,
+				60D0D89FD15CABF286DAFDE5999B939B /* Support Files */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				8842A05F0B7F0CF73EDD4E2F86C36854 /* Pods */,
+				11CC82E397C4438FB99C3DE0394A58BE /* Products */,
+				03EA8CF92D59DE9D8210CB4982563DBD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB2754B505A2DA0A4BF1F23EF28A54C /* Pods-ReactNativeStarter-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E72F0EF93DBA25C82CDD365526670D4 /* Pods-ReactNativeStarter-tvOS-acknowledgements.markdown */,
+				F1D42969E515508C58EC76FC68336A48 /* Pods-ReactNativeStarter-tvOS-acknowledgements.plist */,
+				8267F7DDAC0EFC9A0DE88B7D680F7610 /* Pods-ReactNativeStarter-tvOS-dummy.m */,
+				E87D4B7F41EDB74836FE32959403F1B7 /* Pods-ReactNativeStarter-tvOS.debug.xcconfig */,
+				D4AC2F5618E5F3A7F67C36BBDD4E16C1 /* Pods-ReactNativeStarter-tvOS.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeStarter-tvOS";
+			path = "Target Support Files/Pods-ReactNativeStarter-tvOS";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12708CB198CEC0C91A0F027BF8685AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47596D9F942EFAC1D0353BAA4F356F2E /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6F085D3C401EF0A360F191C97EAB9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D13A70222D6D1A6901369FD15F11E /* GooglePlaces.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27105DD70765C9021D470D86F9C4A624 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F05405BF1BBB929A8E33AF23A794B51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5D45129B2561FCBD1D3465F96DB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B3C362DF16B7A81DC3E625FE0AED2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B89F543CB60E52C97C78472881D5CBC /* Pods-ReactNativeStarter-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4322334C7EDED6AC5D87B9FF5335099D /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarter-tvOSTests" */;
+			buildPhases = (
+				B6D5D45129B2561FCBD1D3465F96DB8D /* Headers */,
+				E778E7E6990FCD808A515C9B3930B07D /* Sources */,
+				7724D365C4EB899CF1B85D2A5E309C35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CA411BFAC0ABD6E73A53E3D9A4D2EE /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeStarter-tvOSTests";
+			productName = "Pods-ReactNativeStarter-tvOSTests";
+			productReference = 60C7F8752BAB3FF6CBBFF1D00ACA7C9A /* libPods-ReactNativeStarter-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		71A97408EBA3FFC5BBCA87AA6DF67950 /* Pods-ReactNativeStarter-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09931CCB43ECE122CF81F1531BADEBE4 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarter-tvOS" */;
+			buildPhases = (
+				9F05405BF1BBB929A8E33AF23A794B51 /* Headers */,
+				1625BD1FC1A0D51AA551574D4BEC472F /* Sources */,
+				324F4A5E2CFE44B35629F9B25CA197DC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ReactNativeStarter-tvOS";
+			productName = "Pods-ReactNativeStarter-tvOS";
+			productReference = 63123E8AA4BA708148716FCA2F5CD0C6 /* libPods-ReactNativeStarter-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		843AA4F48FE97675D6852EC171B7AAD2 /* Pods-ReactNativeStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C3E6E4291F0558FFE37AC6C732DC81 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarter" */;
+			buildPhases = (
+				27105DD70765C9021D470D86F9C4A624 /* Headers */,
+				EDAC6A4F78B5A203DE936D286D91610E /* Sources */,
+				17DD77F14B6C56256A6FA7AF2ED3A99A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E8CA1B7232E969D0ACD47A5CAC8F32 /* PBXTargetDependency */,
+				25B96639DAB67DE836432D32D90566F9 /* PBXTargetDependency */,
+				0DEFBB0EC093C07AA33A79315414AEDD /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeStarter";
+			productName = "Pods-ReactNativeStarter";
+			productReference = 456E0F9615DED332FB8D8373D658A265 /* libPods-ReactNativeStarter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF2DA2B40A4FF00891342C1758208290 /* Pods-ReactNativeStarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5BDB6523D5CD3D8D193EE6593537AC /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarterTests" */;
+			buildPhases = (
+				D7B3C362DF16B7A81DC3E625FE0AED2E /* Headers */,
+				0A6D307B698C493CE086CFC13297030D /* Sources */,
+				F43E952D01C7E8F8B60838BADE5BEBF9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97DE36436EACCCE0C7E7331267370082 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeStarterTests";
+			productName = "Pods-ReactNativeStarterTests";
+			productReference = BFC6CA4B976E5A6A617243E39071BF2B /* libPods-ReactNativeStarterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 11CC82E397C4438FB99C3DE0394A58BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */,
+				6971C648DDB28667F4C22B65A43ACD65 /* GooglePlacePicker */,
+				FDCCEC87018B71AF93462A4997EAB6BD /* GooglePlaces */,
+				843AA4F48FE97675D6852EC171B7AAD2 /* Pods-ReactNativeStarter */,
+				71A97408EBA3FFC5BBCA87AA6DF67950 /* Pods-ReactNativeStarter-tvOS */,
+				1B89F543CB60E52C97C78472881D5CBC /* Pods-ReactNativeStarter-tvOSTests */,
+				EF2DA2B40A4FF00891342C1758208290 /* Pods-ReactNativeStarterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6D307B698C493CE086CFC13297030D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D7EAC1D7FB9291D8CFDB9A34ED38CA /* Pods-ReactNativeStarterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1625BD1FC1A0D51AA551574D4BEC472F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA6079D8D1BBDC232C248A8CC686209 /* Pods-ReactNativeStarter-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E778E7E6990FCD808A515C9B3930B07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D918EF18505F2B473BD44A1731649D7F /* Pods-ReactNativeStarter-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC6A4F78B5A203DE936D286D91610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17291B040D9A5BF4CE92EB23D1A94798 /* Pods-ReactNativeStarter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DEFBB0EC093C07AA33A79315414AEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = FDCCEC87018B71AF93462A4997EAB6BD /* GooglePlaces */;
+			targetProxy = B01B24CF75D366B04CD0C608991574AE /* PBXContainerItemProxy */;
+		};
+		17E8CA1B7232E969D0ACD47A5CAC8F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = B789AD79372E11A1DF4FA507D4EFD0DB /* PBXContainerItemProxy */;
+		};
+		25B96639DAB67DE836432D32D90566F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlacePicker;
+			target = 6971C648DDB28667F4C22B65A43ACD65 /* GooglePlacePicker */;
+			targetProxy = 5FFB84AEE69E14648ECB467E044F8FF0 /* PBXContainerItemProxy */;
+		};
+		35CA411BFAC0ABD6E73A53E3D9A4D2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReactNativeStarter-tvOS";
+			target = 71A97408EBA3FFC5BBCA87AA6DF67950 /* Pods-ReactNativeStarter-tvOS */;
+			targetProxy = 75424630A62F7361375B6EEF03E74D61 /* PBXContainerItemProxy */;
+		};
+		97DE36436EACCCE0C7E7331267370082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReactNativeStarter";
+			target = 843AA4F48FE97675D6852EC171B7AAD2 /* Pods-ReactNativeStarter */;
+			targetProxy = 6A810B2782A5BFC1C44E25CD9E0251C1 /* PBXContainerItemProxy */;
+		};
+		B5BD3C53A125FD91ACDBEBEDB9843C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = FDCCEC87018B71AF93462A4997EAB6BD /* GooglePlaces */;
+			targetProxy = 35E69D0E4CDC23656657C72CBC0D50F5 /* PBXContainerItemProxy */;
+		};
+		BB314D9FD28F9EE0C76AA2ABD22FC78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = 44915583C8AAB453CB2B8C11E6512027 /* PBXContainerItemProxy */;
+		};
+		C33B0DAEEBDCDD75F9AF79C9332DEC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = DB32E74C91B4C711DC0B0CE5A18D8A86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05281AA7F1FD47D8770E54541E2225F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87D4B7F41EDB74836FE32959403F1B7 /* Pods-ReactNativeStarter-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2C1C4625A069FBBE1AA822F8E0C646B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53ED20C856292823D18E068F7619868A /* GooglePlacePicker.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DB5FA23AC2BB5559D35326E1F74281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CB7F4C8E0A31C6624B31EA9D566FE2 /* Pods-ReactNativeStarter-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F37384DA1C643BB2C0981EC6C2243B /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		595DD5539089161955FE3C7084B0C9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53ED20C856292823D18E068F7619868A /* GooglePlacePicker.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6102AAACF1F680356B7D3FAF0632D673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		65DB14FC65ADA0E5FE399BB6CBD29DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1038B49B42E30CE17FFCA91D0E8645 /* Pods-ReactNativeStarter-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CEFD4A0FF7D85887390E5ED002003D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4D13A70222D6D1A6901369FD15F11E /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		711229AAC575F0930EE5ADC3FB4B221A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182B27845C91962702CA177736A7CC76 /* Pods-ReactNativeStarterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C2F6EFD4BC4593565DB993D0F59EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3138A009C97C154DBF632F6B012A58AD /* Pods-ReactNativeStarter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BBA25EDDDAEDE7FFB8870004DC7E4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		A804DCF0C6EA94BB83ABAAB8D8901614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AC2F5618E5F3A7F67C36BBDD4E16C1 /* Pods-ReactNativeStarter-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8ED8690043364B053B2B5BA71C108F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2581F55F6E3408D31C7E8B357E4E54 /* Pods-ReactNativeStarterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FA133B6A4E182DA7E34F64D1BEEABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6320F413B48CEE942E32DFA63AA161 /* Pods-ReactNativeStarter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F37384DA1C643BB2C0981EC6C2243B /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C8B7A5C0A2BC3DC7FEE5F90BE94C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4D13A70222D6D1A6901369FD15F11E /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09931CCB43ECE122CF81F1531BADEBE4 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarter-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05281AA7F1FD47D8770E54541E2225F5 /* Debug */,
+				A804DCF0C6EA94BB83ABAAB8D8901614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C3E6E4291F0558FFE37AC6C732DC81 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FA133B6A4E182DA7E34F64D1BEEABC /* Debug */,
+				78C2F6EFD4BC4593565DB993D0F59EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5BDB6523D5CD3D8D193EE6593537AC /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711229AAC575F0930EE5ADC3FB4B221A /* Debug */,
+				B8ED8690043364B053B2B5BA71C108F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4322334C7EDED6AC5D87B9FF5335099D /* Build configuration list for PBXNativeTarget "Pods-ReactNativeStarter-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DB5FA23AC2BB5559D35326E1F74281 /* Debug */,
+				65DB14FC65ADA0E5FE399BB6CBD29DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480B55FE3ACCAC83A30949D59053CFBD /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEFD4A0FF7D85887390E5ED002003D0 /* Debug */,
+				C9C8B7A5C0A2BC3DC7FEE5F90BE94C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBA25EDDDAEDE7FFB8870004DC7E4C0 /* Debug */,
+				6102AAACF1F680356B7D3FAF0632D673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C19445312324B2FC829685DE007C84 /* Build configuration list for PBXAggregateTarget "GooglePlacePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595DD5539089161955FE3C7084B0C9B2 /* Debug */,
+				2C1C4625A069FBBE1AA822F8E0C646B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
