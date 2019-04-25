@@ -10,7 +10,7 @@ cd app
 ```
 $ npm install
 ```
-## Include Google API Key in the `src/` folder and name it `key.js`
+## Include Google API Key in the ```src/``` folder and name it ```key.js```
 Inside `src/key.js`, please include 
 ```
 export default google = { key: YOUR_API_KEY }
