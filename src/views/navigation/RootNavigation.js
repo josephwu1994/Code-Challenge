@@ -3,10 +3,12 @@ import { Image, TouchableOpacity } from 'react-native';
 import { createAppContainer, createStackNavigator } from 'react-navigation';
 
 import Home from '../pages/Bookmarks';
+import Place from '../pages/Place';
 
 import { colors, fonts } from '../../styles';
 
 const headerBackground = require('../../../design/assets/weatherHeader.png');
+
 
 const stackNavigator = createStackNavigator(
   {
@@ -16,6 +18,12 @@ const stackNavigator = createStackNavigator(
         title: 'React Native Starter',
         header: null
       }),
+    },
+    Place: {
+      screen: Place,
+      navigationOptions: () => ({
+        header: null
+      })
     }
   },
   {

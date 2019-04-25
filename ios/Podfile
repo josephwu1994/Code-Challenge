@@ -8,6 +8,7 @@ target 'ReactNativeStarter' do
   pod 'GoogleMaps'
   pod 'GooglePlacePicker'
 
+
   # Pods for ReactNativeStarter
 
   target 'ReactNativeStarterTests' do

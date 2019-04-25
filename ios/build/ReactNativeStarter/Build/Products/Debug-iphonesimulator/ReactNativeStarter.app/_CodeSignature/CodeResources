@@ -1679,7 +1679,7 @@
 		</data>
 		<key>PlugIns/ReactNativeStarterTests.xctest.dSYM/Contents/Resources/DWARF/ReactNativeStarterTests</key>
 		<data>
-		mL+azCWdF3WWOUtlfo+jp+d1cR8=
+		xqOPcpHRSJ0FBaBYnmcxxm/1CL8=
 		</data>
 		<key>PlugIns/ReactNativeStarterTests.xctest/Info.plist</key>
 		<data>
@@ -1687,7 +1687,7 @@
 		</data>
 		<key>PlugIns/ReactNativeStarterTests.xctest/ReactNativeStarterTests</key>
 		<data>
-		tEVm32ZvOD94W+Gg7+hZft61u24=
+		jc0u+mjHTRa06ZAwLt243U/Y8Uw=
 		</data>
 		<key>PlugIns/ReactNativeStarterTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -4724,11 +4724,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mL+azCWdF3WWOUtlfo+jp+d1cR8=
+			xqOPcpHRSJ0FBaBYnmcxxm/1CL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			o/X6pou4pwesMQdPi+jaGI5kcprkix4qL1YRJxuSqf0=
+			tTBVnJTECgI3rzN1cJAdsRlzWHR/yD52QGg9n94LlFY=
 			</data>
 		</dict>
 		<key>PlugIns/ReactNativeStarterTests.xctest/Info.plist</key>
@@ -4746,11 +4746,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tEVm32ZvOD94W+Gg7+hZft61u24=
+			jc0u+mjHTRa06ZAwLt243U/Y8Uw=
 			</data>
 			<key>hash2</key>
 			<data>
-			wThpTSk2zWJxRJ3l4JEE6U3B+TkgYfa1AHGW6J4slYU=
+			UwDcUHh7m5ctkmJx3mZsbJexIgqJOJrF15hoFOcgqHo=
 			</data>
 		</dict>
 		<key>PlugIns/ReactNativeStarterTests.xctest/_CodeSignature/CodeResources</key>

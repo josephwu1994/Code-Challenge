@@ -6,7 +6,6 @@ import com.facebook.react.ReactApplication;
 import com.arttitude360.reactnative.rngoogleplaces.RNGooglePlacesPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactcommunity.rnlocalize.RNLocalizePackage;
-import com.BV.LinearGradient.LinearGradientPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -31,7 +30,6 @@ public class MainApplication extends Application implements ReactApplication {
             new RNGooglePlacesPackage(),
             new VectorIconsPackage(),
             new RNLocalizePackage(),
-            new LinearGradientPackage(),
             new RNGestureHandlerPackage()
       );
     }

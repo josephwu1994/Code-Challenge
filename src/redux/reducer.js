@@ -1,9 +1,7 @@
 import { combineReducers } from 'redux';
 
-// ## Generator Reducer Imports
-import calendar from '../views/calendar/CalendarState';
+import pagesReducer from '../views/pages/pagesReducer';
 
 export default combineReducers({
-  calendar
-  // ## Generator Reducers
+  pagesReducer,
 });
