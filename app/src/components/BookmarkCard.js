@@ -91,7 +91,6 @@ class BookmarkCard extends Component {
   }
 
   render() {
-    console.log(this.props.item)
     if(!this.props.item.photo) {
       return (
         <EmptyContainer>

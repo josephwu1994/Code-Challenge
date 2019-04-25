@@ -172,6 +172,44 @@ class Place extends Component {
     this.props.navigation.goBack()
   }
 
+  _backButton(data) {
+    return (
+      <BackButton onPress={() => { this.handleBackClick() }}><BackImage source={backButton}/></BackButton>
+    )
+  }
+
+  _locationDetail(data) {
+    return (
+      <LocationNameContainer>
+        <DetailContainer>
+          <City>{data.city+', '+data.state}</City>
+          <LocationName>{data.name}</LocationName>
+        </DetailContainer>
+        <Rating>
+          <Heart source={heart}/>
+          <RatingText>{data.rating}</RatingText>
+        </Rating>
+      </LocationNameContainer>
+      )
+  }
+
+  _mapContainer(data) {
+    return (
+      <MapContainer>
+        <PinButton style={{ backgroundColor: this.state.isClicked ? '#00FF1C' : '#1313AF'}} onPress={() => { this.handleClick() }} >
+          {this.state.isClicked ? <Image source={check} />  : null }
+          <ButtonText style={{ color: this.state.isClicked ? 'black': 'white'}} >
+            { this.state.isClicked ? 'Pinned To Trip': 'Pin To Trip' }
+          </ButtonText>
+        </PinButton>
+        <AddressContainer>
+          <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}><Pin source={pin}/><AreaText>{data.region}</AreaText></View>
+          <Address>{data.address}</Address>
+        </AddressContainer>
+        <Map source={{uri: data.map}} />
+      </MapContainer>
+    )
+  }
   render() {
     if(this.state.loading) {
       return <ActivityIndicator style={{height:'40%', width: '100%'}} size="large" color="#0000ff"/>
@@ -179,30 +217,9 @@ class Place extends Component {
       const data = this.state.index === -1 ? this.props.bookmarks.slice(-1)[0] : this.props.bookmarks[this.state.index]
       return (
         <LocationBackground source={{uri: data.photo}} imageStyle={{height:'70%', width: '100%'}}>
-          <BackButton onPress={() => { this.handleBackClick() }}><BackImage source={backButton}/></BackButton>
-          <LocationNameContainer>
-            <DetailContainer>
-              <City>{data.city+', '+data.state}</City>
-              <LocationName>{data.name}</LocationName>
-            </DetailContainer>
-            <Rating>
-              <Heart source={heart}/>
-              <RatingText>{data.rating}</RatingText>
-            </Rating>
-          </LocationNameContainer>
-          <MapContainer>
-            <PinButton style={{ backgroundColor: this.state.isClicked ? '#00FF1C' : '#1313AF'}} onPress={() => { this.handleClick() }} >
-              {this.state.isClicked ? <Image source={check} />  : null }
-              <ButtonText style={{ color: this.state.isClicked ? 'black': 'white'}} >
-                { this.state.isClicked ? 'Pinned To Trip': 'Pin To Trip' }
-              </ButtonText>
-            </PinButton>
-            <AddressContainer>
-              <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}><Pin source={pin}/><AreaText>{data.region}</AreaText></View>
-              <Address>{data.address}</Address>
-            </AddressContainer>
-            <Map source={{uri: data.map}} />
-          </MapContainer>
+          {this._backButton(data)}
+          {this._locationDetail(data)}
+          {this._mapContainer(data)}
         </LocationBackground>
       );
     }

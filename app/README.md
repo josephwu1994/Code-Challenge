@@ -18,17 +18,11 @@ export default google = { key: YOUR_API_KEY }
 
 ## Start the app
 
-```
-$ react-native run-ios
-```
-This will take a while. <br>
-
-If you get an error, `on a separate terminal`
-## Try
+Clear out any cache that might cause the app to not start properly
 ```
 $ react-native start -- --reset-cache
 ```
-Then you can start the app again in the original terminal with
+Then you can start the app in a `separate terminal` with the following command
 ``` 
 $ react-native run-ios
 ```

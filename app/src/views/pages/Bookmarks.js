@@ -1,4 +1,7 @@
 import React, { Component }from 'react';
+import { connect } from 'react-redux'
+import { getLocation, searchLocation } from './pagesReducer'
+import styled from 'styled-components/native'
 import {
   View,
   TouchableOpacity,
@@ -7,16 +10,12 @@ import {
   Image,
   Modal,
 } from 'react-native';
-import { connect } from 'react-redux'
-import { getLocation, searchLocation } from './pagesReducer'
-import styled from 'styled-components/native'
+import { ActivityIndicator } from 'react-native-paper';
 import Carousel from 'react-native-snap-carousel'
 import RNGooglePlaces from 'react-native-google-places'
-import { ActivityIndicator } from 'react-native-paper';
 
 import button from '../../../design/assets/addBookmarkButton.png'
 import headerBackground from '../../../design/assets/weatherHeader.png'
-import Search from './Search'
 import BookmarkCard from '../../components/BookmarkCard';
 
 const Container = styled.View`
@@ -132,51 +131,60 @@ class Bookmarks extends Component {
     )
   }
 
+  _header() {
+    return (
+      <GreetingBackground source={headerBackground}>
+        <View>
+          <GreetingText>Good morning</GreetingText>
+          <WeatherText>Today is 72° and Sunny</WeatherText>
+        </View>
+        <Button onPress={()=>this.toggleSearchModal()}>
+          <ButtonImage source={button}/>
+        </Button>
+      </GreetingBackground>
+    )    
+  }
+
+  _bookmarkCarousel() {
+    return (
+    <CarouselContainer>
+      <Carousel
+        ref={(c) => {this._carousel = c;}}
+        data={this.props.bookmarks.length === 0 ? [{}] : this.props.bookmarks}
+        renderItem={this._renderItem}
+        sliderWidth={500}
+        itemWidth={260}
+        itemHeight={130}
+        sliderHeight={150}
+      />
+    </CarouselContainer>)
+  }
+
+  _currentLocation() {
+    return (
+    <CurrentLocation source={{uri: this.props.current.photo}} imageStyle={{opacity: 0.5}}>
+      <Caption>
+        Exploring {this.props.current.name}
+      </Caption>
+      <SubCaption>
+        {this.props.current.city}, {this.props.current.state}
+      </SubCaption>
+    </CurrentLocation>)
+  }
+
   render() {
-    if(this.state.loading) return <ActivityIndicator style={{height:'40%', width: '100%'}} size="large" color="#0000ff"/>
-    else {
+    if(this.state.loading) {
+      return <ActivityIndicator style={{height:'40%', width: '100%'}} size="large" color="#0000ff"/>
+    } else {
       return (
-      <Container>
-        <Background resizeMode="cover">
-          <Modal
-            animationType="slide"
-            transparent={false}
-            visible={this.state.showModal}
-            presentationStyle="fullScreen"
-          >
-            <Search toggleSearchModal={this.toggleSearchModal}/> 
-          </Modal>
-          <GreetingBackground source={headerBackground}>
-            <View>
-              <GreetingText>Good morning</GreetingText>
-              <WeatherText>Today is 72° and Sunny</WeatherText>
-            </View>
-            <Button onPress={()=>this.toggleSearchModal()}>
-              <ButtonImage source={button}/>
-            </Button>
-          </GreetingBackground>
-          <CarouselContainer>
-            <Carousel
-              ref={(c) => {this._carousel = c;}}
-              data={this.props.bookmarks.length === 0 ? [{}] : this.props.bookmarks}
-              renderItem={this._renderItem}
-              sliderWidth={500}
-              itemWidth={260}
-              itemHeight={130}
-              sliderHeight={150}
-            />
-          </CarouselContainer>
-            <CurrentLocation source={{uri: this.props.current.photo}} imageStyle={{opacity: 0.5}}>
-              <Caption>
-                Exploring {this.props.current.name}
-              </Caption>
-              <SubCaption>
-                {this.props.current.city}, {this.props.current.state}
-              </SubCaption>
-            </CurrentLocation>
-        </Background>
-      </Container>
-    );
+        <Container>
+          <Background resizeMode="cover">
+            {this._header()}
+            {this._bookmarkCarousel()}
+            {this._currentLocation()}
+          </Background>
+        </Container>
+      );
     }
   }
 }
